@@ -41,5 +41,22 @@ emotions = card_obj.emotional_score
 max_emotion = max(zip(emotions.values(), emotions.keys()))[1]
 ```
 
+Get attributes of a given card;
+```
+fool_card_title = t['fool'].card_url.title()
+# return is 'Fool'
 
+mag_obj = t['magician']
+print(mag_obj.card_text)
+# returns verbiage about the card
+```
 
+package for pypi 
+create dist folder with tar.gz
+```
+python3 setup.py sdist
+```
+push to PyPi
+```
+twine upload dist/*
+```

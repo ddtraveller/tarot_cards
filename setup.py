@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="tarotNLP",
-    version="0.0.2",
+    version="0.1.0",
     author="David Dockhorn",
     author_email="ddtraveller@yahoo.com",
     description="This is code for playing tarot cards. Each card has a rich set of properties and there are many helpers to assist with associating cards with common symbols or esoteric references. The cards have been scored for positivity and emotions.",
