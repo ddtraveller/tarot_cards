@@ -1,6 +1,10 @@
 # tarot_cards
 This is a python repository with some code that has a lot of properties for each card so its easy to find associations in readings.
 https://github.com/ddtraveller/tarot_cards
+To install from PyPi;
+```
+python3 -m pip install tarotNLP
+```
 
 ## Basic Usage
 ```
